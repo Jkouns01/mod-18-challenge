@@ -20,4 +20,4 @@ const reactSchema = new Schema({
     }
 });
 
-module.exports = reactionSchema;
+module.exports = reactSchema;
