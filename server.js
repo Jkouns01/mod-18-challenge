@@ -16,5 +16,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/18-NoSQL-Social
   useUnifiedTopology: true
 });
 
-// Use this to log mongo queries being executed!
 mongoose.set('debug', true);
